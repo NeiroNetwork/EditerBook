@@ -749,7 +749,7 @@
     "anchor_to": "top_middle",
     "anchor_from": "top_middle",
 
-    "max_length": "$max_title_length",
+    "max_length": "64",
 
     "$text_alignment": "center",
     "$place_holder_text": "book.titleHere",
