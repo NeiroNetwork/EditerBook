@@ -87,7 +87,7 @@
     "anchor_to": "bottom_middle",
 
     "$text_alignment": "center",
-    "max_length": 1024
+    "max_length": 2048
   },
 
   "page_photo": {
@@ -544,7 +544,7 @@
     "anchor_from": "top_middle",
     "anchor_to": "top_middle",
     "$text_edit_box_focusable_binding_name": "#editable",
-    "max_length": 1024,
+    "max_length": 2048,
 
     "$text_edit_visible_binding_name": "#is_text_page",
     "$text_edit_visible_binding_collection_name": "book_pages",
