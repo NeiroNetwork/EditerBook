@@ -87,7 +87,7 @@
     "anchor_to": "bottom_middle",
 
     "$text_alignment": "center",
-    "max_length": "$max_page_length"
+    "max_length": "1000"
   },
 
   "page_photo": {
@@ -435,7 +435,8 @@
     "anchor_from": "top_middle",
     "anchor_to": "top_middle",
     "$text_edit_box_focusable_binding_name": "#editable",
-    "max_length": "$max_page_length",
+    "max_length": "1000",
+    //test (def: $max_page_length)
 
     "$text_edit_visible_binding_name": "#is_text_page",
     "$text_edit_visible_binding_collection_name": "book_pages",
@@ -962,8 +963,8 @@
       {
         "root_panel@book.root_panel": {
           // Book Size!!
-          "$book_size": [ "480px", "350px" ],
-          "$page_size": [ "240px", "350px" ],
+          "$book_size": [ "440px", "310px" ],
+          "$page_size": [ "220px", "310px" ],
 
           "anchor_from": "center",
           "anchor_to": "center",
