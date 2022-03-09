@@ -420,6 +420,9 @@
           "$pressed_button_name": "button.sign_book",
           "$button_text": "book.signButton",
 
+          // Change the offset of Sign button
+          "offset": [ 0, -235 ],
+
           "bindings": [
             {
               "binding_name": "#editable",
