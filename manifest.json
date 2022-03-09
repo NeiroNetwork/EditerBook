@@ -4,14 +4,14 @@
       "description": "本をデカくします。",
       "name": "EditerBook",
       "uuid": "fe8e66b3-5f78-4b90-8306-cc9be83bbfa8", 
-      "version": [ 1, 0, 0 ] 
+      "version": [ 1, 0, 1 ] 
    }, 
    "modules": [
       { 
          "description": "本をデカくします。",
          "type": "resources",
          "uuid": "4a6633ae-c575-4461-b9a5-5b7616ee010b",
-         "version": [ 1, 0, 0 ]
+         "version": [ 1, 0, 1 ]
       }
    ],
    "subpacks": [
