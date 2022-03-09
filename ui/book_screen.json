@@ -1070,8 +1070,9 @@
     "controls": [
       {
         "root_panel@book.root_panel": {
-          "$book_size": [ "320px", "200px" ],
-          "$page_size": [ "160px", "200px" ],
+          // Change book size
+          "$book_size": [ "440px", "310px" ],
+          "$page_size": [ "220px", "310px" ],
 
           "anchor_from": "center",
           "anchor_to": "center",
