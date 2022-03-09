@@ -420,9 +420,6 @@
           "$pressed_button_name": "button.sign_book",
           "$button_text": "book.signButton",
 
-          // Change the offset of Sign button
-          "offset": [ 0, -235 ],
-
           "bindings": [
             {
               "binding_name": "#editable",
@@ -958,8 +955,9 @@
 
   "book_and_buttons_panel": {
     "type": "panel",
-    "size": [ "100%cm", "100%" ],
-    "max_size": [ "100%", "228px" ],
+    // Change panel size
+    "size": [ "100%cm", "100%cm" ],
+    "max_size": [ "100%", "100%" ],
 
     "controls": [
       {
@@ -1073,9 +1071,9 @@
     "controls": [
       {
         "root_panel@book.root_panel": {
-          // Change book size
-          "$book_size": [ "440px", "310px" ],
-          "$page_size": [ "220px", "310px" ],
+          // Change the book size
+          "$book_size": [ "480px", "300px" ],
+          "$page_size": [ "240px", "300px" ],
 
           "anchor_from": "center",
           "anchor_to": "center",
